@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SIMPLE CALCULATOR</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <ul class="web_title">
+                <li id="cal_logo"></li>
+                <li id="title">Simple Calculate</li>
+            </ul>
+        </header>
+        <section>
+            <div class="calculator">
+                <div class="inputNum">
+                    <label for="inputNum1" id="top_label">Number 1:</label>
+                    <input type="number" id="inputNum1" alt="enter the first number">
+                    </br>
+                    <label for="input" id="bottom_label">Number 2:</label>
+                    <input type="number" id="inputNum2" alt="enter the first number">
+                    <div class="result_box" id="result_box">your aswnser here</div>
+                </div>
+                </br>
+                <div class="calculate_button" id="calculate_button">
+                    <button onclick="clearDisplay()">CLEAR</button>
+                    </br>
+                    <div class="operation_button" id="operation_button">
+                        <button id="setOperation" onclick="setValue('p')"> + </button>
+                        <button id="setOperation" onclick="setValue('m')"> - </button>
+                        <button id="setOperation" onclick="setValue('mu')"> X </button>
+                        <button id="setOperation" onclick="setValue('d')"> : </button>
+                    </div>
+                    </br>
+                    <button id="equal_button" onclick="getResult()"> = </button>
+                    <button id="resultPage_button" onclick="passValue()">
+                        <a href="result_page/result_page.html"></a> result page</button>
+                </div>
+            </div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>

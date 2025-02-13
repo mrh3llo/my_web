@@ -1,0 +1,72 @@
+body {
+    background-color: #FFF0DC;
+    margin: 0;
+    padding: 0;
+}
+
+.web_title {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+}
+
+#cal_logo {
+    background-image: url(img/calculate_img.png);
+    background-color: rgb(240, 187, 120);
+    background-position: center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 40px 10px 40px 10px;
+    width: 50px;
+}
+
+#title {
+    background-color: rgb(240, 187, 120);
+    background: linear-gradient(90deg, rgba(240, 187, 120, 1) 0%, rgba(255, 240, 220, 1) 100%);
+    margin: 10px;
+    margin-right: 30%;
+    border-radius: 10px;
+    padding: 20px 10px 20px 10px;
+    width: 50%;
+    height: 40px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.calculator {
+    background: rgb(240, 187, 120);
+    margin: 10px;
+    margin-top: 0px;
+    border-radius: 10px;
+    padding: 10px
+}
+
+.calculator .inputNum label{
+    background: #FFF0DC;
+    color: #543A14;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.calculator .inputNum #top_label{
+    margin-top: 10px;
+    border-top-left-radius: 10px;
+}
+
+.calculator .inputNum #bottom_label{
+    margin-top: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.calculator .result_box {
+    background: #FFF0DC;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 60%;
+    padding: 10px;
+    border-radius: 10px;
+}
