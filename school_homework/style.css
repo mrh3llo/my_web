@@ -1,0 +1,50 @@
+/*
+if xampp did not update css file. press ctrl + f5 on the local host
+
+Color:
+#ac1b3a
+#830a2d
+*/
+
+body {
+    background-color: #830a2d;
+    margin: 0px;
+}
+
+#title {
+    color: #ffecc2;
+    background-color: #ac1b3a;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#activities {
+    list-style-type: none;
+    background-color: #ac1b3a;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    color: #ffecc2;
+    border-radius: 10px;
+    line-height: 2;
+}
+
+#act1 {
+    list-style-type: none;
+}
+
+#act1 a:link {
+    color: #ffecc2
+}
+
+#act1 a:visited {
+    color: #EEEEEE;
+}
+
+#act1 a:hover {
+    color: #000000;
+}
